@@ -1,0 +1,87 @@
+{
+  "collectionName": "components_shared_variants",
+  "info": {
+    "displayName": "Variant",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "Natural",
+        "Red",
+        "Red and White",
+        "Blue",
+        "Black",
+        "Black and white",
+        "Caramel",
+        "Caramel and white",
+        "Skyblue",
+        "Skyblue and white",
+        "Purple",
+        "Orange",
+        "Mustard",
+        "White",
+        "Beige",
+        "Beige and white",
+        "Pink",
+        "Green",
+        "Yellow",
+        "White and gray",
+        "Gray",
+        "Chocolate",
+        "Brown ",
+        "Brown and white"
+      ]
+    },
+    "size": {
+      "type": "customField",
+      "options": [
+        "Mini",
+        "Small",
+        "Medium",
+        "Large",
+        "XL",
+        "XXL"
+      ],
+      "customField": "plugin::multi-select.multi-select"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "sellPrice": {
+      "type": "decimal"
+    },
+    "availableQty": {
+      "type": "integer"
+    },
+    "discount": {
+      "type": "decimal"
+    },
+    "slug": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::url.url"
+    }
+  }
+}

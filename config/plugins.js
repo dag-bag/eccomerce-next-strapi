@@ -1,4 +1,7 @@
 module.exports = ({ env }) => ({
+  // "google-auth": {
+  //   enabled: true,
+  // },
   "import-export-entries": {
     enabled: true,
   },
