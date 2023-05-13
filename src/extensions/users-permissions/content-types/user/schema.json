@@ -86,7 +86,8 @@
     },
     "phone_number": {
       "type": "integer",
-      "required": true
+      "required": true,
+      "unique": true
     }
   }
 }
