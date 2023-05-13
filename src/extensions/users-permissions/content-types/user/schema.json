@@ -84,8 +84,9 @@
     "lastname": {
       "type": "string"
     },
-    "phone": {
-      "type": "integer"
+    "phone_number": {
+      "type": "integer",
+      "required": true
     }
   }
 }
