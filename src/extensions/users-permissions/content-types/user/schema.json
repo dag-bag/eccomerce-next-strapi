@@ -63,11 +63,11 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "name": {
+    "firstname": {
       "type": "string",
       "required": true
     },
-    "image": {
+    "avatar": {
       "type": "text",
       "default": "https://res.cloudinary.com/dthpcwn8r/image/upload/v1675781215/user_nnv5jz.png"
     },
@@ -76,6 +76,16 @@
       "relation": "oneToOne",
       "target": "api::product-review.product-review",
       "mappedBy": "user"
+    },
+    "otp_verification_state": {
+      "type": "boolean",
+      "default": false
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "integer"
     }
   }
 }
