@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ad_boards",
+  "info": {
+    "singularName": "ad-board",
+    "pluralName": "ad-boards",
+    "displayName": "AD-BOARD"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "text"
+    },
+    "board": {
+      "displayName": "Board",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.board",
+      "min": 3
+    }
+  }
+}

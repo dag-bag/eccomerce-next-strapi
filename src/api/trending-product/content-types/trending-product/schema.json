@@ -4,7 +4,8 @@
   "info": {
     "singularName": "trending-product",
     "pluralName": "trending-products",
-    "displayName": "Trending Product"
+    "displayName": "CATEGORIES-WITH-PRODUCTS",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,6 +16,15 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::product.product"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "href": {
+      "type": "text"
     }
   }
 }

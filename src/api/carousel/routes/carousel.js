@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * cart-ad router
+ * carousel router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::cart-ad.cart-ad');
+module.exports = createCoreRouter('api::carousel.carousel');
