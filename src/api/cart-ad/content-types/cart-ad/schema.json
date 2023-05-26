@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "trending_products",
+  "collectionName": "cart_ads",
   "info": {
-    "singularName": "trending-product",
-    "pluralName": "trending-products",
-    "displayName": "Trending Product"
+    "singularName": "cart-ad",
+    "pluralName": "cart-ads",
+    "displayName": "Cart Ad"
   },
   "options": {
     "draftAndPublish": true

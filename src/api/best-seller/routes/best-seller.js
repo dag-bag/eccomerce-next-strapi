@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * ad-board router
+ * best-seller router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::ad-board.ad-board');
+module.exports = createCoreRouter('api::best-seller.best-seller');

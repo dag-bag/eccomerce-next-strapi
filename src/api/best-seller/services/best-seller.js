@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * carousel service
+ * best-seller service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::carousel.carousel');
+module.exports = createCoreService('api::best-seller.best-seller');

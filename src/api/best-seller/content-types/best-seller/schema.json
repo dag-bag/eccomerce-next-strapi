@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "trending_products",
+  "collectionName": "best_sellers",
   "info": {
-    "singularName": "trending-product",
-    "pluralName": "trending-products",
-    "displayName": "Trending Product"
+    "singularName": "best-seller",
+    "pluralName": "best-sellers",
+    "displayName": "Best Seller"
   },
   "options": {
     "draftAndPublish": true

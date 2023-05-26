@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * ad-board service
+ * cart-ad service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::ad-board.ad-board');
+module.exports = createCoreService('api::cart-ad.cart-ad');
